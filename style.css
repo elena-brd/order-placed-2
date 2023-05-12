@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* 
+e7ecef
+274c77
+6096ba
+a3cef1
+cad2c5
+8b8c89
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f0f9ff;
+    color: #292929;
+    padding: 0 2rem;
+}
+
+#card .card-container {
+    background: #fff;
+    max-width: 650px;
+    margin: 3rem auto;
+    border-radius: 8px;
+    box-shadow: 0px 8px 15px 0px rgba(202, 210, 197, 1);
+    padding: 3rem 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#order-placed-check {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#order-placed-check .check-logo i {
+    color: #13d44a;
+    font-size: 1.5rem;
+    border: 2px solid #cad2c5;
+    padding: 0.5rem 0.6rem;
+    border-radius: 50%;
+}
+
+#order-placed-check .order-status h2 {
+    padding: 1rem 0;
+    font-weight: 400;
+}
+
+#order-placed-check .order-info p,
+#payment-info {
+    text-align: center;
+    color: #717171;
+    padding-bottom: 1rem;
+}
+
+#order-placed-check .order-info p span {
+    font-weight: 500;
+}
+
+#card-info {
+    background: #133348;
+    color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+#card-info i {
+    padding-right: 1rem;
+}
+
+#card-info .location i {
+    padding-right: 1.2rem;
+}
+
+#card-info .card-address-info,
+#card-info .location,
+#card-info .phone,
+#card-info .mail {
+    display: flex;
+    font-weight: 300;
+}
+
+#card-info .card-address-info {
+    padding-bottom: 1.5rem;
+}
+
+#card-info .location,
+#card-info .phone,
+#card-info .mail {
+    color: #cad2c5;
+    padding-bottom: 0.5rem;
+}
+
+#request {
+    padding-bottom: 1.5rem;
+}
+
+#request .request-message {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background: #e7f0e2;
+    color: #717171;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0.5rem 1rem;
+}
+
+#msg {
+    margin-right: 1.2rem;
+}
+
+#smile {
+    margin-left: 0.5rem;
+    color: #fcf005;
+    background: #220606;
+    border-radius: 50%;
+}
